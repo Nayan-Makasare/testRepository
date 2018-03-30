@@ -18,18 +18,6 @@ public class DetailsActivity extends FragmentActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-        Intent intent = getIntent();
-        Uri data = intent.getData();
-
-        String host = data.getHost();
-        String sheme = data.getScheme();
-
-
-        if(host == "nayanmakasare" && sheme == "http"  )
-        {
-            Intent main = new Intent(DetailsActivity.this, MainActivity.class);
-            startActivity(main);
-        }
     }
 
 
