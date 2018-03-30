@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback"></style>
+
+    <dimen name="squarewidth">200</dimen>
+    <dimen name="squareheight">200</dimen>
+</resources>
